@@ -42,7 +42,7 @@ if not stats.isSuccessful():
       raise 'failed initialization'
 
 for i in range(3):
-   out = "gs://aboub_bucket/out/pagerank_data_" + str(i + 1)
+   out = "gs://abou_bucket/out/pagerank_data_" + str(i + 1)
    params["docs_out"] = out
    Pig.fs("rmr " + out)
    stats = UPDATE.bind(params).runSingle()
