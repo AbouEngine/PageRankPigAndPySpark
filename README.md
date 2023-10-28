@@ -7,6 +7,9 @@ L'objectif de cette tâche est de faire une comparaison (en terme de temps d'ex�
 Les temps d'exécution dans le tableau ci-dessous sont en secondes.
 | Nb workers | 2 | 4 | 6 |
 |-----------|-----------|-----------|-----------|
-| Pig| |  | 2318 | 1853 |
+| Pig| 3117 | 2318 | 1853 |
 | PySpark | 2511| 1685 | 1522 |
+
+# Conclusion
+Le pagerank en pySpark a un temps d'exécution inférieur à celui en Pig. PySpark est plus rapide et cela confirme la théorie sur pySpark.
 
