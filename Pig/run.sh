@@ -11,7 +11,7 @@ gsutil cp dataproc.py gs://abou_bucket/
 gsutil rm -rf gs://abou_bucket/out
 
 ## run
-gcloud dataproc jobs submit pig --region europe-west1 --cluster cluster-a35a -f gs://abou_bucket/dataproc.py
+gcloud dataproc jobs submit pig --region europe-west2 --cluster cluster-a35a -f gs://abou_bucket/dataproc.py
 
 ## access results
 gsutil cat -h gs://abou_bucket/out/pagerank_data_10/part-r-00000
