@@ -11,5 +11,5 @@ Les temps d'exécution dans le tableau ci-dessous sont en secondes.
 | PySpark | 2511| 1685 | 1522 |
 
 # Conclusion
-Le pagerank en pySpark a un temps d'exécution inférieur à celui en Pig. PySpark est plus rapide et cela confirme la théorie sur pySpark.
+Le pagerank en pySpark a un temps d'exécution inférieur à celui en Pig. PySpark est plus rapide et cela confirme la théorie sur pySpark (vu en classe).
 
